@@ -21,7 +21,7 @@
 3. **Clone This Repository into Your Neovim Configuration Directory**
 
     ```pwsh
-    git clone https://github.com/tatocode/Neovim-Windows.git "$env:TEMP\jid"; Copy-Item "$env:TEMP\Neovim-Windows\init.lua" "$env:LOCALAPPDATA\nvim\" -Force
+    git clone https://github.com/tatocode/Neovim-Windows.git "$env:TEMP\Neovim-Windows"; Copy-Item "$env:TEMP\Neovim-Windows\init.lua" "$env:LOCALAPPDATA\nvim\" -Force
     ```
 
 4. **Launch Neovim**
